@@ -1,0 +1,223 @@
+ 
+header{
+    background-color: #eaf8ff;
+     padding: 10px 20px;
+     text-align: left;
+
+}
+footer{
+    background-color: #eaf9ff;
+     padding: 20px;
+     text-align: center;
+} 
+
+body{
+    font-family: 'Arial',sans-serif;
+    background-color:#0A0F1F ;
+    color: #eaf8ff;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.text{
+    flex: 1;
+    padding: 20px;
+}
+.text h1{
+   font-size: 45px;
+   color: #00fff7; 
+   margin-bottom: 10px;
+}
+.text h3{
+  font-size: 25px;  
+  color:#48CAE4 ;
+  margin-bottom: 20px;
+}
+.text button{
+    width: 150px ;
+    background-color: #00fff7;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #0A0F1F;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.text button:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 247, 0.849);
+    background-color: #fff;
+    transition: 1s box-shadow;
+    transition: 0.8s background-color;
+    
+}
+.text button:first-child{
+    margin-top: 1.5em;
+}
+
+.image{
+    flex: 1;
+    text-align: center;
+}
+.image img{
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 247, 0.849);
+}
+
+footer img {
+    width: 75px;
+}
+.berufs-container{
+   max-width: 800px; 
+   margin: 50px auto;
+  padding: 30px;
+  background-color: #101522;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 247, 0.849);
+}
+.berufs-container p{
+    font-size: 18px;
+    color: #eaf8ff;
+    margin-bottom: 5px;
+      
+}
+.berufs-container li{
+    font-size: 16px;
+  color: #48CAE4;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  list-style: none;
+  position: relative; 
+}
+.berufs-container h1{
+    text-align: center;
+     box-shadow: 0 0 15px rgba(0, 255, 242, 0.849);
+}
+.berufs-container li::before{
+     content: "•";
+  color: #00FFF7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.skills-container{
+    max-width: 100%;
+    margin: 50px;
+    padding: 40px;
+    background-color: #1c2210ef;
+    border-radius: 15px;
+    color: #eaf8ff;
+    box-shadow: 0 0 25px rgba(0, 255, 242, 0.849);
+
+}
+.skills-container h1,h3{
+    color: #00FFF7;
+}
+.ausbildung p,.fähigkeiten ul{
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    color: #48CAE4;
+}
+.fähigkeiten ul li{
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    color: #48CAE4;
+}
+.fähigkeiten ul li::before{
+    content: "●";
+  color: #00FFF7;
+  position: absolute;
+  left: 0; 
+}
+.Hallo{
+   max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #101522;
+  color: #EAF8FF;
+  border-radius: 12px;  
+}
+.Hallo h1{
+    color: #00FFF7;
+    margin-bottom: 20px;
+}
+.vorstellung{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+.Kontakt{
+    text-align: center;
+    padding: 50px;
+    background-color: #101522;
+    color: #EAF8FF;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+.Kontakt h1{
+    color: #00FFF7;
+    margin-bottom: 30px;
+}
+.Kontakt img{
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 247,0.3 );
+    margin-bottom: 20px;
+}
+.Kontakt p{
+    font-size: 18px;
+    margin: 10px;
+    color: #48CAE4;
+}
+.navbar {
+  background-color: #0A0F1F;
+  padding: 15px 30px;
+  text-align: center;
+  border-bottom: 2px solid #00FFF7;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+    
+  display: inline-block;
+  margin: 0 15px;
+  box-shadow: #00FFF7; 
+}
+
+.navbar ul li a {
+    
+  text-decoration: none;
+  color: #EAF8FF;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00FFF7;
+  text-shadow: 0 0 5px #00FFF7;
+}
